@@ -7,12 +7,12 @@
 
 <AnchorPane prefHeight="240.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="smartconferenceroom.view.ControlPointView">
    <children>
-      <Label layoutX="27.0" layoutY="32.0" text="Smart Home - People action">
+      <Label layoutX="27.0" layoutY="32.0" text="Smart Conference Room - People action">
          <font>
             <Font size="20.0" />
          </font>
       </Label>
-      <Button layoutX="68.0" layoutY="94.0" mnemonicParsing="false" onAction="#onObjectDetected" text="Go inside the smart room" />
-      <Button layoutX="63.0" layoutY="161.0" mnemonicParsing="false" onAction="#onObjectRelease" text="Go outside the smart room" />
+      <Button layoutX="68.0" layoutY="94.0" mnemonicParsing="false" onAction="#onObjectDetected" text="Go inside the smart conference room" />
+      <Button layoutX="63.0" layoutY="161.0" mnemonicParsing="false" onAction="#onObjectRelease" text="Go outside the smart conference room" />
    </children>
 </AnchorPane>
