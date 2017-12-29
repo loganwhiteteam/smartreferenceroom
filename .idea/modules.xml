@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/smartconferenceroom.iml" filepath="$PROJECT_DIR$/.idea/modules/smartconferenceroom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/smartconferenceroom_main.iml" filepath="$PROJECT_DIR$/.idea/modules/smartconferenceroom_main.iml" group="smartconferenceroom" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/smartconferenceroom_test.iml" filepath="$PROJECT_DIR$/.idea/modules/smartconferenceroom_test.iml" group="smartconferenceroom" />
+    </modules>
+  </component>
+</project>

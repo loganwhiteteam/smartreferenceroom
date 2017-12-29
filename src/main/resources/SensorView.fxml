@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="140.0" prefWidth="310.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="smartconferenceroom.view.SensorView">
+   <children>
+      <RadioButton fx:id="detectedBut" layoutX="126.0" layoutY="50.0" mnemonicParsing="false" text="Objects detected" />
+      <RadioButton fx:id="undetectedBut" layoutX="126.0" layoutY="80.0" mnemonicParsing="false" selected="true" text="No object found" />
+      <Label layoutX="24.0" layoutY="51.0" text="Status" />
+      <Label layoutX="24.0" layoutY="16.0" text="Infrared Sensor" textAlignment="CENTER">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

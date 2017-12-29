@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="140.0" prefWidth="310.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="smartconferenceroom.view.LightView">
+   <children>
+      <Label layoutX="24.0" layoutY="51.0" text="Status" />
+      <Label layoutX="24.0" layoutY="16.0" text="Light" textAlignment="CENTER">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Slider fx:id="level" layoutX="103.0" layoutY="51.0" />
+   </children>
+</AnchorPane>
